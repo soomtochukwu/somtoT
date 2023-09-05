@@ -2,8 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const hardhat_1 = require("hardhat");
 async function main() {
-    const Token = await hardhat_1.ethers.getContractFactory("SomtoT");
-    const Somto = await hardhat_1.ethers.deployContract("SomtoT");
+    const Somto = await hardhat_1.ethers.deployContract("MaZi");
     await Somto.waitForDeployment();
     let addr = await Somto.getAddress();
     console.log("deployed SomtoT:", addr);

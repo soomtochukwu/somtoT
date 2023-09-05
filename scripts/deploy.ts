@@ -1,8 +1,7 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  const Token = await ethers.getContractFactory("SomtoT");
-  const Somto = await ethers.deployContract("SomtoT");
+  const Somto = await ethers.deployContract("MaZi");
 
   await Somto.waitForDeployment();
 

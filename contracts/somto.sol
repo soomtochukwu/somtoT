@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.7;
+pragma solidity 0.8.19;
 
-contract SomtoT {
+contract MaZi {
     // state variables
-    string public name = "SomtoT";
-    string public symbol = "ST";
+    string public name = "MaZi";
+    string public symbol = "MaZi";
     uint8 public  decimals = 18;
     uint256 public  totalSupply;
     /*
